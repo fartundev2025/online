@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Qalin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0F112B',
+                        secondary: '#AA54A0',
+                        accent: '#FF6B6B',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-primary text-white">
+    <!-- Header -->
+    <header class="fixed w-full top-0 z-30 bg-primary border-b border-white/10">
+        <nav class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2 mt-10">
+                <i class="fas fa-graduation-cap text-2xl text-secondary"></i>
+                <img src="image/logo[1].png" alt="Logo" class="h-20">
+            </div>
+            
+            <ul class="hidden md:flex space-x-10 mt-8 items-center">
+                <li><a href="#home" class="hover:text-secondary transition-colors">Home</a></li>
+                <li><a href="#courses" class="hover:text-secondary transition-colors">Courses</a></li>
+                <li><a href="#about" class="hover:text-secondary transition-colors"></a>About</li>
+                <li><a href="#contact" class="hover:text-secondary transition-colors">Contact</a></li>
+                <button class="px-8 py-3 bg-secondary rounded-full hover:bg-opacity-90 transition-colors ml-8 hover:bg-[#25245F]">
+                    All Courses
+                </button>
+            </ul>
+
+            <button class="md:hidden">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main class="pt-20">
+        <!-- Hero Section -->
+         
+        <section class="min-h-screen py-20 px-4">
+            <div class="container mx-auto grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-8">
+                    <h1 class="text-8xl font-bold">
+                    <h1 class="text-6xl font-bold leading-think">
+                        <span class="bg-gradient-to-r from-secondary to-accent text-transparent bg-clip-text">Grow <span class="text-gray-400 font-thin">Your </span><br>
+                        <span class="bg-gradient-to-r from-secondary to-accent text-transparent bg-clip-text">Skills</span>
+                    </h1> 
+                    <p class="text-gray-400 text-lg max-w-xl">
+                        Unlock your potential with personalized mentorship and hands-on learning — empowering you to succeed in the digital world.
+                    </p>
+                    
+                    <div class="flex flex-col md:flex-row gap-4">
+                        <!-- <input type="text" placeholder="Search for courses..." 
+                            class="flex-1 px-6 py-4 rounded-full bg-white/5 border border-white/10 focus:outline-none focus:border-secondary"> -->
+                        <button class="px-20 py-4 bg-secondary rounded-full hover:bg-opacity-90 transition-colors">
+                            All Courses
+                        </button>
+                        <button class="px-14 py-2 border border-white rounded-full hover:bg-opacity-90 transition-colors  ">
+                            All Courses
+                          </button>
+                    </div>
+                </div>
+                <!-- Image Section -->
+      <div class="w-full max-w-sm md:max-w-md hover:bg-[#0F112B">
+        <img src="image/boxx-01[1].png" alt="Coding Bootcamp" class="rounded-lg shadow-lg">
+      </div>
+    </div>
+  </div>                      
+  </section> 
+
+        <!-- Featured Courses -->
+        <section class="py-20 px-4" id="courses">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold text-center mb-12">Featured Courses</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Web Development Card -->
+                    <div class="bg-white/5 rounded-2xl overflow-hidden border border-white/10 group hover:-translate-y-2 hover:border-secondary hover:shadow-xl hover:shadow-secondary/20 transition-all duration-300">
+                        <div class="relative">
+                            <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=500" 
+                                 class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" alt="Programming Course">
+                            <span class="absolute top-4 left-4 bg-secondary px-4 py-1 rounded-full text-sm group-hover:bg-opacity-90">
+                                Programming
+                            </span>
+                        </div>
+                        <div class="p-6 space-y-4">
+                            <h3 class="text-xl font-semibold group-hover:text-secondary transition-colors">Web Development</h3>
+                            <div class="flex items-center text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span class="ml-2 text-secondary">4.5 (2.1k)</span>
+                            </div>
+                            <p class="text-gray-400 group-hover:text-gray-300 transition-colors">Learn modern web development with HTML, CSS, and JavaScript</p>
+                            <div class="flex justify-between items-center pt-4 border-t border-white/10">
+                                <span class="text-secondary text-xl font-bold group-hover:scale-105 transition-transform">$89.99</span>
+                                <button class="px-6 py-2 bg-secondary rounded-full hover:bg-opacity-90 transition-all hover:shadow-lg hover:shadow-secondary/50 hover:-translate-y-1 duration-300">
+                                    Enroll Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- UI/UX Design Card -->
+                    <div class="bg-white/5 rounded-2xl overflow-hidden border border-white/10 group hover:-translate-y-2 hover:border-secondary hover:shadow-xl hover:shadow-secondary/20 transition-all duration-300">
+                        <div class="relative">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500" 
+                                 class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" alt="Design Course">
+                            <span class="absolute top-4 left-4 bg-secondary px-4 py-1 rounded-full text-sm group-hover:bg-opacity-90">
+                                UI/UX
+                            </span>
+                        </div>
+                        <div class="p-6 space-y-4">
+                            <h3 class="text-xl font-semibold group-hover:text-secondary transition-colors">UI/UX Design</h3>
+                            <div class="flex items-center text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span class="ml-2 text-secondary">5.0 (1.8k)</span>
+                            </div>
+                            <p class="text-gray-400 group-hover:text-gray-300 transition-colors">Master the art of creating beautiful and user-friendly interfaces</p>
+                            <div class="flex justify-between items-center pt-4 border-t border-white/10">
+                                <span class="text-secondary text-xl font-bold group-hover:scale-105 transition-transform">$79.99</span>
+                                <button class="px-6 py-2 bg-secondary rounded-full hover:bg-opacity-90 transition-all hover:shadow-lg hover:shadow-secondary/50 hover:-translate-y-1 duration-300">
+                                    Enroll Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Digital Marketing Card -->
+                    <div class="bg-white/5 rounded-2xl overflow-hidden border border-white/10 group hover:-translate-y-2 hover:border-secondary hover:shadow-xl hover:shadow-secondary/20 transition-all duration-300">
+                        <div class="relative">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500" 
+                                 class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" alt="Marketing Course">
+                            <span class="absolute top-4 left-4 bg-secondary px-4 py-1 rounded-full text-sm group-hover:bg-opacity-90">
+                                Marketing
+                            </span>
+                        </div>
+                        <div class="p-6 space-y-4">
+                            <h3 class="text-xl font-semibold group-hover:text-secondary transition-colors">Digital Marketing</h3>
+                            <div class="flex items-center text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span class="ml-2 text-secondary">4.9 (1.5k)</span>
+                            </div>
+                            <p class="text-gray-400 group-hover:text-gray-300 transition-colors">Learn digital marketing strategies that drive real results</p>
+                            <div class="flex justify-between items-center pt-4 border-t border-white/10">
+                                <span class="text-secondary text-xl font-bold group-hover:scale-105 transition-transform">$69.99</span>
+                                <button class="px-6 py-2 bg-secondary rounded-full hover:bg-opacity-90 transition-all hover:shadow-lg hover:shadow-secondary/50 hover:-translate-y-1 duration-300">
+                                    Enroll Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="py-20 px-4 bg-white/5" id="features">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold text-center mb-12">Why Choose Us</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Web Development Card -->
+                    <div class="p-8 rounded-2xl border border-white/10 bg-white/5 hover:border-secondary transition-colors group hover:-translate-y-2 duration-300">
+                        <i class="fas fa-code text-4xl text-secondary mb-6 group-hover:scale-110 transition-transform"></i>
+                        <h3 class="text-xl font-semibold mb-4">Web Development</h3>
+                        <p class="text-gray-400 mb-6">Master modern web development with our comprehensive curriculum.</p>
+                        <ul class="space-y-3">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-secondary mr-3"></i>
+                                HTML5, CSS3 & JavaScript
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-secondary mr-3"></i>
+                                React & Node.js
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-secondary mr-3"></i>
+                                Database Management
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-secondary mr-3"></i>
+                                API Development
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-secondary mr-3"></i>
+                                <span class="text-secondary font-bold">20+ Projects</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Mobile Development Card -->
+                    <div class="p-8 rounded-2xl border border-white/10 bg-white/5 hover:border-secondary transition-colors group hover:-translate-y-2 duration-300">
+                        <i class="fas fa-mobile-alt text-4xl text-secondary mb-6 group-hover:scale-110 transition-transform"></i>
+                        <h3 class="text-xl font-semibold mb-4">Mobile Development</h3>
+                        <p class="text-gray-400 mb-6">Build powerful mobile applications for iOS and Android platforms.</p>
+                        <ul class="space-y-3">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-secondary mr-3"></i>
+                                Swift & SwiftUI
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-secondary mr-3"></i>
+                                React Native
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-secondary mr-3"></i>
+                                Flutter Development
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-secondary mr-3"></i>
+                                App Publishing
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-secondary mr-3"></i>
+                                <span class="text-secondary font-bold">15+ Real Apps</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- UI/UX Design Card -->
+                    <div class="p-8 rounded-2xl border border-white/10 bg-white/5 hover:border-secondary transition-colors group hover:-translate-y-2 duration-300">
+                        <i class="fas fa-paint-brush text-4xl text-secondary mb-6 group-hover:scale-110 transition-transform"></i>
+                        <h3 class="text-xl font-semibold mb-4">UI/UX Design</h3>
+                        <p class="text-gray-400 mb-6">Create beautiful and functional user interfaces that engage users.</p>
+                        <ul class="space-y-3">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-secondary mr-3"></i>
+                                Figma & Adobe XD
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-secondary mr-3"></i>
+                                User Research
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-secondary mr-3"></i>
+                                Wireframing
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-secondary mr-3"></i>
+                                Prototyping
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-secondary mr-3"></i>
+                                <span class="text-secondary font-bold">25+ Designs</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-primary border-t border-white/10 py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Qalin</h3>
+                    <p class="text-gray-400">Empowering learners worldwide with quality education</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-secondary transition-colors">Home</a></li>
+                        <li><a href="#courses" class="text-gray-400 hover:text-secondary transition-colors">Courses</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-secondary transition-colors">About</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-secondary transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+                    <p class="text-gray-400">Email: info@Qalin.com</p>
+                    <p class="text-gray-400">Phone: +2561348475</p>
+                </div>
+            </div>
+            <div class="text-center mt-12 pt-8 border-t border-white/10">
+                <p class="text-gray-400">&copy; 2025 Qalincorde. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navLinks = document.querySelector(".nav-links");
+
+        hamburger.addEventListener("click", () => {
+            hamburger.classList.toggle("active");
+            navLinks.classList.toggle("active");
+        });
+
+        document.querySelectorAll(".nav-links li").forEach(n => n.addEventListener("click", () => {
+            hamburger.classList.remove("active");
+            navLinks.classList.remove("active");
+        }));
+    </script>
+</body>
+</html> 
